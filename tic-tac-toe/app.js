@@ -126,13 +126,3 @@ mainBoard.addEventListener("click", (event) => {
 
 //Start button resets board to the "copy" of the original.
 startButton.addEventListener("click", resetBoard);
-
-// startButton.addEventListener("click", () => {
-//     const stoard = document.querySelectorAll(".cell");
-//     for (let i = 0; i < stoard.length; i++) {
-//         if (stoard[i].innerText === "X" || stoard[i].innerText === "O") {
-//                 stoard[i].innerText = "";
-//         }
-//     } 
-//     gameOver = false;  
-// });
